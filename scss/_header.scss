@@ -112,6 +112,10 @@ $cl: #fa5c65;
 }
 
 .burger-menu {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 12%;
 
 	&__list{
 		display: block;
@@ -266,7 +270,7 @@ $cl: #fa5c65;
 	.block-header__logo{
 		transform: scale(0.9);
 		margin-top: -0.63em;
-		margin-left: -4em;
+		margin-left: -50%;
 	}
 }
 
